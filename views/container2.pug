@@ -1,0 +1,20 @@
+//- link(rel='stylesheet', href='/css/content-container2.css')
+div(class="content-container2-box  rounded-tl-[4px] rounded-tr-[4px] w-full bg-white flex justify-between items-center  p-2 pr-[14px]")
+  div(class="flex gap-5 pl-5 text-[14px] text-custom-sort-color items-center")
+    div(class="cursor-pointer hover:bg-custom-grey py-[6px] px-[2px] hover:rounded-[4px]" )
+      svg(class="h-[12px] w-[12px]")(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true')
+        path(stroke-linecap='round' stroke-linejoin='round' d='M2 14s.121.85 3.636 4.364A9 9 0 0 0 20.776 14M2 14v6m0-6h6m14-4s-.121-.85-3.636-4.364A9 9 0 0 0 3.224 10M22 10V4m0 6h-6')
+    div(class="flex items-center cursor-pointer hover:bg-custom-grey py-[6px] px-[2px] hover:rounded-[4px]")
+      svg(class="h-5 w-5 mr-[2px]")(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true' )
+        path(stroke-linecap='round' stroke-linejoin='round' d='M6 12h12M3 6h18M9 18h6')
+      span Filter
+    div(class="flex items-center cursor-pointer hover:bg-custom-grey py-[6px] px-[2px] hover:rounded-[4px]")
+      svg(class="h-[12px] w-[12px] font-extrabold mr-[2px]")(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true')
+        path(stroke-linecap='round' stroke-linejoin='round' d='M7 4v16m0 0-4-4m4 4 4-4m6 4V4m0 0-4 4m4-4 4 4')
+      span Sort
+  .flex.align-justify-box
+    div(class="flex items-center px-2 py-1 rounded-[2px] border border-solid border-[custom-search-border] search-box")
+      svg.text-quaternary(xmlns='http://www.w3.org/2000/svg' fill='none' style='color: rgb(102,112,133);' viewbox='0 0 24 24' stroke-width='1.5' stroke='currentColor' aria-hidden='true' width='13px' height='13px')
+        path(stroke-linecap='round' stroke-linejoin='round' d='m21 21-4.35-4.35M19 11a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z')
+      span
+        input(class="search h-4.5 text-[14px] font-light tracking-tighter border-none outline-none pl-1")(placeholder='Search',type="text",id="search-input")

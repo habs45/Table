@@ -1,0 +1,88 @@
+.content-container2 {
+  width: calc(100%-4.6rem);
+
+}
+
+.content-container2-box {
+  width: calc(100%);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top-left-radius: 0.9rem;
+  border-top-right-radius: 0.9rem;
+  align-items: center;
+}
+
+.content-container2 {
+  background-color: rgb(237, 239, 244);
+}
+
+.content-container2-box {
+  width: 100%;
+  background-color: white;
+  padding: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  align-items: center;
+  padding-right: 1.3rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus .search-box {
+  border: 2px solid rgb(78, 38, 219);
+}
+
+.search {
+  height: 1.125rem;
+  border: none;
+  font-size: 0.9rem;
+  letter-spacing: 0.2px;
+  font-weight: 200;
+}
+
+.search-box {
+  border: 1px solid rgb(207, 200, 200);
+  border-radius: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.5rem;
+}
+
+.sort-box {
+  color: rgb(71, 84, 103);
+  font-weight: 500;
+}
+.content-container2 {
+  width: calc(100%-4.6rem);
+
+}
+
+.content-container2-box {
+  width: calc(100%);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top-left-radius: 0.9rem;
+  border-top-right-radius: 0.9rem;
+  align-items: center;
+}
+
+.content-container2 {
+  background-color: rgb(237, 239, 244);
+}
+
+
+
+input:focus {
+  outline: none;
+}
+
+input:focus .search-box {
+  border: 2px solid rgb(78, 38, 219);
+}
+
+
+
+

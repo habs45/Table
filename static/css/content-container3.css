@@ -1,0 +1,471 @@
+.content-container3 {
+    background-color: white;
+    width: calc(100%-4.6rem);
+}
+
+table th {
+    height: 2rem;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    border-radius: 0.625rem 0.625rem 0rem 0rem;
+    border-spacing: 0;
+    overflow-y: scroll;
+}
+
+table thead tr th:first-child {
+    border-top-left-radius: 0.125rem 0.125rem;
+}
+
+table thead tr th:last-child {
+    border-top-right-radius: 0.125rem 0.125rem;
+}
+
+th,
+td {
+    height: 3.5rem;
+    vertical-align: center;
+}
+
+table tr th {
+    text-align: left;
+}
+
+.col3-div-span {
+    padding: 4px;
+    border-radius: 2rem;
+}
+
+table,
+th,
+td {
+    border: 0.1px solid #e0e3eb;
+}
+
+table tr td .col3-div span {
+    background-color: red;
+    margin-left: 0.5rem;
+    border: 1px solid rgb(224, 227, 235);
+    background-color: rgb(245, 246, 250);
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+table tbody tr td:nth-child(4) {
+    height: 2.4375rem;
+}
+
+td {
+    text-wrap: word-break;
+}
+
+tbody {
+    overflow: scroll;
+}
+
+th {
+    color: rgb(71, 84, 103);
+    font-weight: 300;
+    letter-spacing: 0.2px;
+}
+
+table tr td:nth-child(6),
+td:nth-child(7) {
+    color: rgb(52, 64, 84);
+    font-weight: 300;
+}
+
+.content-container {
+    width: 100%;
+}
+
+table tbody {
+    overflow: scroll;
+    height: 5rem;
+}
+
+table {
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+table tr td {
+    text-overflow: hidden;
+}
+
+table thead th {
+    font-weight: 300;
+    font-size: 0.895rem;
+}
+
+table thead th:nth-child(5),
+table tbody tr td:nth-child(5) {
+    width: 11rem;
+    padding-left: 10px;
+}
+
+table thead th:nth-child(6),
+table thead th:nth-child(7) {
+    width: 14.5rem;
+    padding-left: 10px;
+}
+
+table thead th:nth-child(8) {
+    width: 5.5rem;
+}
+
+table {
+    width: 97.5%;
+}
+
+table tr td {
+    min-height: 3.3rem;
+}
+
+table tr td:nth-child(2) {
+    font-size: 0.9rem;
+}
+
+table tr td:nth-child(3) {
+    font-size: 0.2rem;
+}
+
+table tr td:nth-child(4) {
+    padding-left: 10px;
+}
+
+table tbody tr td:nth-child(2) {
+    padding-left: 10px;
+}
+
+table tbody tr td:nth-child(6),
+table tbody tr td:nth-child(7) {
+    font-size: 0.91rem;
+}
+
+table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+table tr td img {
+    border: 1px solid rgb(245, 240, 240);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+table thead th:nth-child(1) {
+    text-align: center;
+}
+
+table thead th:nth-child(2) {
+    padding: 0;
+    padding-left: 10px;
+}
+
+table thead th:nth-child(2) {
+    width: 21.625rem;
+}
+
+table thead th:nth-child(3) {
+    width: 9.175rem;
+    padding-left: 10px;
+}
+
+table thead th:nth-child(4) {
+    width: 11.5rem;
+    padding-left: 10px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f3efef;
+    transition: 0.4s;
+    border-radius: 0.625rem;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 0.875rem;
+    width: 0.875rem;
+    left: 0.1875rem;
+    bottom: 0.1875rem;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 2.13rem;
+    height: 1.25rem;
+    /* margin-left: 13px; */
+  }
+ 
+  input:checked + .slider {
+    background-color: rgb(92, 55, 235);
+  }
+  input:checked + .slider:before {
+    transform: translatex(0.8rem);
+  }
+  .slider.round {
+    border-radius: 2.125rem;
+  }
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  .col6head {
+    width: 16.25rem;
+    height: 2.4375rem;
+    padding: 0.5rem;
+  }
+  .table tbody tr td:nth-child(6),
+  .table tbody tr td:nth-child(7) {
+    width: 16.25rem;
+    /* height: 2.435rem; */
+    padding: 0.5rem;
+    display: flex;
+    align-items: flex-start;
+    border: none;
+    border-bottom: 0.000001px dotted #cfd4de;
+    height: 1.125rem;
+    font-size: 0.8rem;
+    color: rgb(71, 84, 103);
+    flex-direction: row;
+  }
+  .last-col6 {
+    border: none;
+  }
+  .btns{
+    gap: 2px;
+  }
+  .name-time-container-left {
+    margin-left: 0.5rem;
+  }
+  .date2 {
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+  }
+  
+ 
+  .date2{
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: rgb(102,112,133) ;
+  letter-spacing: 0.4px;
+  }
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex {
+    display: flex;
+  }
+  .align-items{
+    align-items: center;
+  }
+  .justify-content{
+    justify-content: center;
+  }
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .font-semibold{
+    font-weight: 400;
+  }
+  .btn-bg-color {
+    background-color: rgb(78, 38, 219);
+  }
+  .container-flex{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  
+  .bg-color {
+    background-color: rgb(237, 239, 244);
+  }
+  .align-justify-box {
+    align-items: center;
+    justify-content: center;
+  }
+  .align-justify-box-space {
+    justify-content: space-between;
+  }
+  .svg-icon {
+    height: 1.25rem;
+    width: 1.25rem;
+    
+    /* color: red; */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "__Inter_918210", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+  }
+  .row-justify-only {
+    justify-content: center;
+  }
+  .row-align-only {
+    align-items: center;
+  }
+  
+  /* SPECIFIC CLASSES */
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
+  .empty {
+    width: 1.3rem;
+    height: 100%;
+    /* background-color: green; */
+  }
+  .grey-color{
+    color: rgb(102,112,133);
+  }
+
+  .name-logo {
+    height: 4.2rem;
+    width: 3.5rem;
+    border-top: 1px solid rgb(207,212,222);
+  }
+  .settings {
+    height: 2rem;
+  }
+  .name-logo-initial {
+    padding: 0.625rem;
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
+    color: white;
+    border-radius: 50%;
+  }
+ 
+
+  .auto-number {
+    background-color: white;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.37rem;
+    border-radius: 50%;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 1px solid #e0e3eb;
+    color: rgb(52, 64, 84);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-container {
+    font-size: 0.875rem;
+    letter-spacing: 0.1px;
+    gap: 0.5rem;
+  }
+  .explore {
+    background-color: white;
+    color: rgb(78, 38, 219);
+    border: 0.5px solid rgb(78, 38, 219);
+    border-radius: 0.20rem;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .automation-heading {
+    font-size: 1.2rem;
+  }
+
+ 
+  .searchbox {
+    /* height: 22px; */
+    border: none;
+    font: 2rem;
+  }
+  
+  
+  
+  .initials {
+    width: 1.875rem;
+    height: 1.875rem;
+    background-color: #edeff4;
+    color: rgb(102, 112, 133);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    margin-right: 0.625rem;
+    border: none;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+  }
+  .username {
+    font-weight: lighter;
+    font-size: 0.85em;
+    letter-spacing: 0.5px;
+  }
+  .username {
+    font-weight: lighter;
+    font-size: 0.85em;
+    letter-spacing: 0.5px;
+  }
+  .date {
+    font-size: 0.75em;
+    margin-top: 2px;
+    color: rgb(102, 112, 133);
+    font-weight: 100;
+    letter-spacing: 0.5px;
+  }
+  .date {
+    font-size: 0.8em;
+    color: gray;
+    font-family: 100;
+    letter-spacing: 0.5px;
+  }
+ 
+  .name-time-container {
+    width: 100%;
+    height: 100%;
+    gap: 0.625rem;
+  }
+  .name-initials {
+    background-color: rgb(237, 239, 244);
+    padding: 0.37rem;
+    padding-left: 0.5625rem;
+    padding-right: 0.5625rem;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(102, 112, 133);
+  }
+
+  

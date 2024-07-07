@@ -1,0 +1,27 @@
+.content-container1 {
+    width: calc(100%-4.6rem);
+    padding-left: 1.25rem;
+    padding-right: 0;
+}
+
+.content-container1-box {
+    width: 100%;
+    font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: 3rem;
+}
+
+.content-container2-box {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.plus {
+    font-size: 1rem;
+    margin-right: 2px;
+    font-weight: lighter;
+
+}
